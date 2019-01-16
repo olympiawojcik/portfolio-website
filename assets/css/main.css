@@ -5,6 +5,13 @@
 	Overflow by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+	Light Blue: #4b87b1
+	Light Green: #35b88f
+	Light Green on button #35b882;
+	Light Green (Submit Button): #45c89f
+	Light Blue (Submit Button): #a9c8de
+
 */
 
 html, body, div, span, applet, object,
@@ -160,14 +167,14 @@ input, select, textarea {
 		-webkit-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		-ms-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
-		color: #35b88f;
-		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
+		color: #4b87b1;
+		/* text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25); */
 		text-decoration: none;
-		border-bottom: dotted 1px rgba(53, 184, 143, 0.5);
+		/* border-bottom: dotted 1px rgba(53, 184, 143, 0.5); */
 	}
 
-		a:hover {
-			border-bottom-color: rgba(53, 184, 143, 0);
+		/* a:hover {
+			border-bottom-color: rgba(53, 184, 143, 0); */
 		}
 
 	sub {
@@ -1748,7 +1755,7 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		border: 0;
-		background: #35b88f;
+		background: #4b87b1;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		cursor: pointer;
@@ -1765,7 +1772,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #45c89f;
+			background: #a9c8de;
 		}
 
 		input[type="button"].style2,
@@ -2076,14 +2083,14 @@ input, select, textarea {
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #35b88f url("images/banner.svg") bottom center no-repeat;
+		background: #4b87b1 url("images/banner.svg") bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
 	}
 
 		#banner .button {
-			color: #35b882;
+			color: #4b87b1;
 			text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
 		}
 
@@ -2141,7 +2148,7 @@ input, select, textarea {
 		}
 
 			#footer a:hover {
-				color: #35b88f;
+				color: #4b87b1;
 				text-shadow: 0 0 0.5px rgba(69, 200, 159, 0.25);
 				border-bottom-color: rgba(53, 184, 143, 0.5);
 			}
